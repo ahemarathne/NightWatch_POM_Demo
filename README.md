@@ -127,4 +127,18 @@ module.exports = {
 
 To run the test, type in <node nightwatch -e chrome>
  
+## Reports
+
+html-reporter.hbs and html-reporter.js enables reporting for your peoject. Prior to copying the code, install node modules; fs, path and handlebars.
+
+to run test with report generation, execute following command;
+
+```
+$ node nightwatch -e chrome --reporter html-reporter.js
+```
+
+
+ 
 Reference : https://nightwatchjs.org/gettingstarted/configuration/#base-settings
+
+
