@@ -29,7 +29,7 @@ For Chrome driver;
 $ npm install chromedriver --save
 ```
  
-Alternatively, it can be downloaded from the Chrome Driver Downloads page.
+Alternatively, it can be downloaded from the Chrome Driver Downloads page. But make sure the driver is comaptible with your current chrome browser version.
 
 4.	Install standalone Selenium server
 
